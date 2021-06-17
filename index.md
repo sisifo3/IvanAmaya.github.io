@@ -1,5 +1,6 @@
 ## Artificial Intelligence.
 
+In this space we will address issues related to Artificial Intelligence, in the book Artificial Intelligence a Modern Approach, written by Staiart Russell and Peter Norving divides the concepts into four possible areas such as: Systems that think like humans, Systems that think rationally, systems that acts like humans, systems that act rationally.[1]
 
 [comment]: <> (You can use the)
 
@@ -41,3 +42,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 ### References.
+
+[1] Stuart Russel, Peter Norving . (2004). Artificial Intelligence a Modern Approach. 28042 Madrid (España): Pearson Education,.
