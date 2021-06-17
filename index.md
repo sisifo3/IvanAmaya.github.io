@@ -1,3 +1,11 @@
+$if(mathjax)$
+<!--- MathJax stuff -->
+<script type="text/javascript" src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
+</script>
+$endif$
+
 ## Artificial Intelligence.
 
 In this space we will address issues related to Artificial Intelligence, in the book Artificial Intelligence a Modern Approach, written by Staiart Russell and Peter Norving divides the concepts into four possible areas such as: Systems that think like humans, Systems that think rationally, systems that acts like humans, systems that act rationally.[1]
