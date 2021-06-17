@@ -24,10 +24,10 @@ In this space we will address issues related to Artificial Intelligence, in the 
 <details open>
 <summary> Occurence Probability</summary>
 
-<p>The approach to data analysis is based on the mean of the distribution represented by the next equation, which is the standard form of the Gaussian distribution [2]. \\
+<p>The approach to data analysis is based on the mean of the distribution represented by the next equation, which is the standard form of the Gaussian distribution [2]. 
   
   
-$$P(x) = \fracc{1}{2}$$
+$$P(x) = \frac{1}{\sqrt{2 \pi  \sigma ^2}$$
   
   </p>
 </details>  
