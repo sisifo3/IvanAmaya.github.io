@@ -26,8 +26,9 @@ In this space we will address issues related to Artificial Intelligence, in the 
 
 <p>The approach to data analysis is based on the mean of the distribution represented by the next equation, which is the standard form of the Gaussian distribution [2]. 
   
-  
-$$P(x) = \frac{1}{\sqrt{2 \pi  \sigma ^2}$$
+\begin{equation}  
+P(x) = \frac{1}{\sqrt{2 \pi  \sigma ^2}
+\end{equation}    
   
   </p>
 </details>  
