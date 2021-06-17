@@ -70,3 +70,16 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ### References.
 
 [1] Stuart Russel, Peter Norving . (2004). Artificial Intelligence a Modern Approach. 28042 Madrid (España): Pearson Education,.
+
+
+
+
+
+
+$if(mathjax)$
+<!--- MathJax stuff -->
+<script type="text/javascript" src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ TeX: { equationNumbers: {autoNumber: "all"} } });
+</script>
+$endif$
