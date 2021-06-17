@@ -12,6 +12,18 @@ In this space we will address issues related to Artificial Intelligence, in the 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+
+<details open>
+<summary>Already open...</summary>
+
+<p>...</p>
+</details>  
+
+
+
+
+
+
 ```markdown
 Syntax highlighted code block
 
