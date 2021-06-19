@@ -30,51 +30,12 @@ In this space we will address issues related to Artificial Intelligence, in the 
 P(x) = \frac{1}{\sqrt{2 \pi \sigma ^2}} e^{\frac{x - \mu }{2 \sigma ^2}}
 \end{equation}    
 
-[comment]: <> (P(x) = \frac{1}{\sqrt{2 \pi  \sigma ^2} e^{\frac{(x- \mu)^2}{2 \sigma ^2}})    
-    
-Where P(x) is the probability of occurrence of the variable n, $\sigma$ is the Standard deviation, $\sigma$ 2 is the Variance, $\mu$ is the Mean. The method is based on the postulate that the values of the unknown parameters are those that produce a maximum probability of observing the measured data. Assuming
+Where $$P(x)$$ is the probability of occurrence of the variable n, $\sigma$ is the Standard deviation, $\sigma$ 2 is the Variance, $\mu$ is the Mean. The method is based on the postulate that the values of the unknown parameters are those that produce a maximum probability of observing the measured data. Assuming
 that the measurements are independent of each other [2]. 
 
-Data distribution
+##Data distribution
     
 If we want to plot a data
-
-    ```markdown
-    library(ggplot2)
-    #library(ggpubr)
-    #Name     label  
-    #Control  <- 0 
-    #ADHD     <- 1    
-
-    file1 <-"Desktop/Ingoodwetrust/libros/ADHD_dataset_2/var_st_entropy_AP_RP_Control_ADHD_V2_1.csv"
-    df1 <- read.csv(file1)
-
-    file0 <-"Desktop/Ingoodwetrust/libros/ADHD_dataset_2/var_st_entropy_AP_RP_Control_ADHD_V2_0.csv"
-    df0 <- read.csv(file0)
-
-    g1 <- replicate(265,"ADHD")
-    g2<- replicate(265,"Control")
-
-    df1$group <- g1 
-    df0$group <- g2
-    df <- rbind(df1,df0)
-
-    df$StandardDeviation <- df$sd
-    df$Variance <- df$var
-    df$Entropy <- df$entropy
-    df$RelativePower <- df$RealtivePower
-
-    p1 <- ggplot(df, aes(x=AbsolutePower, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
-
-    p2 <- ggplot(df, aes(x=Entropy, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
-
-    p3 <- ggplot(df, aes(x=RelativePower, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
-
-    p2
-
-    ```
-    
-    
     
     
   </p>
