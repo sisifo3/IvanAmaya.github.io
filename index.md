@@ -31,11 +31,11 @@ P(x) = \frac{1}{\sqrt{2 \pi \sigma ^2}} e^{\frac{x - \mu }{2 \sigma ^2}}
 \end{equation}    
 
 Where $P(x)$ is the probability of occurrence of the variable n, $\sigma$ is the Standard deviation, $\sigma$ 2 is the Variance, $\mu$ is the Mean. The method is based on the postulate that the values of the unknown parameters are those that produce a maximum probability of observing the measured data. Assuming
-that the measurements are independent of each other [2]. 
+that the measurements are independent of each other [2]. \
 
-Data distribution
+Data distribution \
     
-If we want to plot a data
+If we want to plot a data\
     
     
   </p>
