@@ -38,7 +38,16 @@ that the measurements are independent of each other [2]. <br/>
 Data distribution <br/>
 
 If we want to plot a data <br/>
+
     
+    
+```
+    library(ggplot2)
+#library(ggpubr)
+#Name     label  
+#Control  <- 0 
+#ADHD     <- 1    
+```
   </p>
 </details>  
 
