@@ -38,21 +38,37 @@ that the measurements are independent of each other [2].
 ## Data distribution
     
 ```markdown
-Syntax highlighted code block
+library(ggplot2)
+#library(ggpubr)
+#Name     label  
+#Control  <- 0 
+#ADHD     <- 1    
 
-# Header 1
-## Header 2
-### Header 3
+file1 <-"Desktop/Ingoodwetrust/libros/ADHD_dataset_2/var_st_entropy_AP_RP_Control_ADHD_V2_1.csv"
+df1 <- read.csv(file1)
 
-- Bulleted
-- List
+file0 <-"Desktop/Ingoodwetrust/libros/ADHD_dataset_2/var_st_entropy_AP_RP_Control_ADHD_V2_0.csv"
+df0 <- read.csv(file0)
 
-1. Numbered
-2. List
+g1 <- replicate(265,"ADHD")
+g2<- replicate(265,"Control")
 
-**Bold** and _Italic_ and `Code` text
+df1$group <- g1 
+df0$group <- g2
+df <- rbind(df1,df0)
 
-[Link](url) and ![Image](src)
+df$StandardDeviation <- df$sd
+df$Variance <- df$var
+df$Entropy <- df$entropy
+df$RelativePower <- df$RealtivePower
+
+p1 <- ggplot(df, aes(x=AbsolutePower, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
+
+p2 <- ggplot(df, aes(x=Entropy, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
+
+p3 <- ggplot(df, aes(x=RelativePower, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
+
+p2
 ```
     
     
