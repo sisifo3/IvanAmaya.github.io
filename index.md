@@ -72,12 +72,14 @@ p2
 
 
 
-![alt text for screen readers](/fig/AI266 "Text to show on mouseover")
+![alt text for screen readers](/fig/AI266.pdf "Text to show on mouseover")
 
 
 
-<img src="/fig/AI266" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+<img src="/fig/AI266.pdf" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
 
+
+![GitHub Logo](/fig/AI266.pdf)
 
 <details open>
 <summary> Linear Regression</summary>
