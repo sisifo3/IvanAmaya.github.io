@@ -51,7 +51,7 @@ that the measurements are independent of each other [2].
 
 <p>
 The simple linear regression model, is a model with a single regressor x that has a relationship with a response y that is a straight line, we can found this
-equations in the book Introduction to linear regression Analysis (Douglas C. Montgomery, 2012).
+equations in the book Introduction to linear regression Analysis [3].
 
     \begin{equation}  
 \hat{y_0} = \hat{\beta_0} + \hat{\beta_1} x_0
@@ -103,7 +103,9 @@ Syntax highlighted code block
 
 [1] Stuart Russel, Peter Norving . (2004). Artificial Intelligence a Modern Approach. 28042 Madrid (España): Pearson Education,.
 
+[2] M. Bonamente, Statistics and Analysis of Scientific Data. Springer Science+Business Media New York 2013, 2013.
 
+[3] Douglas C. Montgomery. (2012). Introduction to Linear Regression Analysis. Hoboken, New Jersey.: John Wiley & Sons, Inc
 
 
 
