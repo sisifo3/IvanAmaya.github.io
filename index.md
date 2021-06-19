@@ -37,7 +37,7 @@ that the measurements are independent of each other [2]. <br/>
   </p>
 </details>  
 
-##Data distribution 
+Data distribution 
 
 If we want to plot a data <br/>
 
