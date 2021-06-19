@@ -41,6 +41,35 @@ that the measurements are independent of each other [2].
 
 
 
+
+
+
+
+
+<details open>
+<summary> Linear Regression</summary>
+
+<p>
+The simple linear regression model, is a model with a single regressor x that has a relationship with a response y that is a straight line, we can found this
+equations in the book Introduction to linear regression Analysis (Douglas C. Montgomery, 2012).
+
+    \begin{equation}  
+\hat{y_0} = \hat{\beta_0} + \hat{\beta_1} x_0
+\end{equation}    
+ 
+where the intercept $\beta_0$ and the slope $\beta_1$ are unknown constants.
+    
+  </p>
+</details>  
+
+
+
+
+
+
+
+
+
 ```markdown
 Syntax highlighted code block
 
@@ -59,15 +88,15 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[comment]: <> (For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).)
 
-### Jekyll Themes
+[comment]: <> (### Jekyll Themes)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sisifo3/IvanAmaya.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[comment]: <> (Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sisifo3/IvanAmaya.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.)
 
-### Support or Contact
+[comment]: <> (### Support or Contact)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[comment]: <> (Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.)
 
 
 ### References.
