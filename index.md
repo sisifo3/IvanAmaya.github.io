@@ -34,6 +34,29 @@ P(x) = \frac{1}{\sqrt{2 \pi \sigma ^2}} e^{\frac{x - \mu }{2 \sigma ^2}}
     
 Where P(x) is the probability of occurrence of the variable n, $\sigma$ is the Standard deviation, $\sigma$ 2 is the Variance, $\mu$ is the Mean. The method is based on the postulate that the values of the unknown parameters are those that produce a maximum probability of observing the measured data. Assuming
 that the measurements are independent of each other [2]. 
+
+## Data distribution
+    
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+    
+    
+    
     
   </p>
 </details>  
@@ -56,7 +79,7 @@ The simple linear regression model, is a model with a single regressor x that ha
 equations in the book Introduction to linear regression Analysis [3].
 
     \begin{equation}  
-\hat{y_0} = \hat{\beta_0} + \hat{\beta_1} x_0
+y_0 = \beta_0 + \beta_1 x_0
 \end{equation}    
  
 where the intercept $\beta_0$ and the slope $\beta_1$ are unknown constants.
