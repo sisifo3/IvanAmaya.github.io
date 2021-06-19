@@ -41,12 +41,13 @@ If we want to plot a data <br/>
 
     
     
-```
+```markdown
     library(ggplot2)
 #library(ggpubr)
 #Name     label  
 #Control  <- 0 
 #ADHD     <- 1    
+    
 ```
   </p>
 </details>  
