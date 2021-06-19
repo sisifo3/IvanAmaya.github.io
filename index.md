@@ -34,9 +34,12 @@ Where $P(x)$ is the probability of occurrence of the variable n, $\sigma$ is the
 that the measurements are independent of each other [2]. <br/>
 
 Data distribution <br/>
-    
+
+<br/>    
+
 If we want to plot a data <br/>
-    
+
+<br/>    
     
   </p>
 </details>  
