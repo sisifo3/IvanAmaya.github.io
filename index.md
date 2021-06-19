@@ -29,7 +29,17 @@ In this space we will address issues related to Artificial Intelligence, in the 
 \begin{equation}  
 P(x) = \frac{1}{\sqrt{2 \pi  \sigma ^2} e^{\frac{(x-\mu)^2}{2\sigma^2}}
 \end{equation}    
-  
+  Donde P (x) es la la probabilidad de ocurrencia de la variable n, σ es la
+Desviación estándar, σ 2 es la Varianza, μ es la Media. El método se basa en el
+postulado de que los valores de los parámetros desconocidos son aquellos que
+producen una probabilidad máxima de observar los datos medidos. Suponiendo
+que las mediciones son independientes entre sı́ [17].
+    
+Donde P (x) es la la probabilidad de ocurrencia de la variable n, σ es la
+Desviación estándar, σ 2 es la Varianza, μ es la Media. El método se basa en el
+postulado de que los valores de los parámetros desconocidos son aquellos que
+producen una probabilidad máxima de observar los datos medidos. Suponiendo
+que las mediciones son independientes entre sı́ [17].    
   </p>
 </details>  
 
