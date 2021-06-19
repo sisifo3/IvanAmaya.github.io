@@ -27,8 +27,10 @@ In this space we will address issues related to Artificial Intelligence, in the 
 <p>The approach to data analysis is based on the mean of the distribution represented by the next equation, which is the standard form of the Gaussian distribution [2]. 
   
     \begin{equation}  
-P(x) = \frac{1}{\sqrt{2 \pi  \sigma ^2} e^{\frac{(x- \mu)^2}{2 \sigma ^2}}
+P(x) = a
 \end{equation}    
+
+[comment]: <>(P(x) = \frac{1}{\sqrt{2 \pi  \sigma ^2} e^{\frac{(x- \mu)^2}{2 \sigma ^2}})    
     
 Where P(x) is the probability of occurrence of the variable n, $\sigma$ is the Standard deviation, $\sigma$ 2 is the Variance, $\mu$ is the Mean. The method is based on the postulate that the values of the unknown parameters are those that produce a maximum probability of observing the measured data. Assuming
 that the measurements are independent of each other [2]. 
