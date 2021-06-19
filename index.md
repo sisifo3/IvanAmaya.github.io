@@ -69,6 +69,7 @@ p2 <- ggplot(df, aes(x=Entropy, fill=group, binwidth=.3)) + geom_density(col = "
 p3 <- ggplot(df, aes(x=RelativePower, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
 
 p2
+    
 ```
     
     
