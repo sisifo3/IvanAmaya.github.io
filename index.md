@@ -45,12 +45,9 @@ If we want to plot a data <br/>
 
 ```markdown
 library(ggplot2)
-#library(ggpubr)
 #Name     label  
 #Control  <- 0 
 #ADHD     <- 1    
-
-
 
 file1 <-"Desktop/Ingoodwetrust/libros/ADHD_dataset_2/var_st_entropy_AP_RP_Control_ADHD_V2_1.csv"
 df1 <- read.csv(file1)
@@ -65,16 +62,9 @@ df1$group <- g1
 df0$group <- g2
 df <- rbind(df1,df0)
 
-df$StandardDeviation <- df$sd
-df$Variance <- df$var
 df$Entropy <- df$entropy
-df$RelativePower <- df$RealtivePower
-
-p1 <- ggplot(df, aes(x=AbsolutePower, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
 
 p2 <- ggplot(df, aes(x=Entropy, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
-
-p3 <- ggplot(df, aes(x=RelativePower, fill=group, binwidth=.3)) + geom_density(col = "green", alpha=.6) 
 
 p2
 
@@ -109,24 +99,6 @@ where the intercept $\beta_0$ and the slope $\beta_1$ are unknown constants.
 
 
 
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 [comment]: <> (For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).)
 
