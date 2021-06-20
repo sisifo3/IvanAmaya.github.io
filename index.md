@@ -82,6 +82,9 @@ p2
 ![plot_density](/fig/AI266.pdf)
 
 
+
+<embed src="https://sisifo3.github.io/fig/AI266.pdf" width="100%" height="850px"/>
+
 <details open>
 <summary> Linear Regression</summary>
 
