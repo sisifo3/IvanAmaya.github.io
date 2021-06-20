@@ -72,11 +72,11 @@ p2
 
 
 
-![alt text for screen readers](/fig/AI266.pdf "Text to show on mouseover")
+[comment]: <> (![alt text for screen readers](/fig/AI266.pdf "Text to show on mouseover"))
 
 
 
-<img src="/fig/AI266.pdf" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+[comment]: <> (<img src="/fig/AI266.pdf" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>)
 
 
 ![plot_density](/fig/AI1.png)
