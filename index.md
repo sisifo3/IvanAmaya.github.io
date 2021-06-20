@@ -71,18 +71,12 @@ p2
 
 The following graph shows the distribution density of the data. 
 
-[comment]: <> (![alt text for screen readers](/fig/AI266.pdf "Text to show on mouseover"))
-
-
-
-[comment]: <> (<img src="/fig/AI266.pdf" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>)
-
 
 ![plot_density](/fig/AI1.png)
 
 
 
-<embed src="https://sisifo3.github.io/fig/AI266.pdf" width="100%" height="850px"/>
+![plot_density](/fig/AI2.png)
 
 <details open>
 <summary> Linear Regression</summary>
