@@ -105,7 +105,6 @@ where the intercept $\beta_0$ and the slope $\beta_1$ are unknown constants.
 
 
 
-
 [comment]: <> (For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).)
 
 [comment]: <> (### Jekyll Themes)
