@@ -74,7 +74,7 @@ The following graph shows the distribution density of the data.
 
 ![plot_density](/fig/AI1.png)
 
-
+After running the algorithm 10 times, we can see in the following figure the comparison between two algorithms, the one proposed in this chapter and Logistic Regression, which is defined by region 1.0. 
 
 ![plot_density](/fig/AI2.png)
 
