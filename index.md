@@ -69,7 +69,7 @@ p2
 
 ```
 
-
+The following graph shows the distribution density of the data. 
 
 [comment]: <> (![alt text for screen readers](/fig/AI266.pdf "Text to show on mouseover"))
 
