@@ -79,7 +79,7 @@ p2
 <img src="/fig/AI266.pdf" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
 
 
-![plot_density](/fig/AI266.pdf)
+![plot_density](/fig/AI1.png)
 
 
 
