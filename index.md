@@ -39,8 +39,7 @@ that the measurements are independent of each other [2]. <br/>
 
 Data distribution 
 
-If we want to plot a data <br/>
-
+The following code shows how to make a graph on the density distribution of the data, it is understood that it is the calculated entropy of the electroencephalogram signals of a subject diagnosed with Attention Deficit Disorder and Control subjects. 
   
 
 ```markdown
