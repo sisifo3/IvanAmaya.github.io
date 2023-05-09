@@ -137,10 +137,27 @@ It can be seen that the database is not balanced, that is, the diference between
 used, and their weights are calculated respectively with the following equation:
 
    \begin{equation}  
-pos_weight = \frac{N}{P}
+pos\_weight = \frac{N}{P}
 \end{equation} 
 
 where N are negative examples an P positives examples.
+
+DenseNet 121.
+
+![plot_density](/fig/AI359.png)
+
+Error metrics.
+
+One of the problems faced is dealing class imbalanced, that is, when one of the classes is outnumbers than the other classes [10], to deal with this problem, the followed metrics
+are used: Weighted Average Precision, Weighted Average Recall, Fβ and Weighted Average Specificity.
+
+Weighted Average Precision.
+
+   \begin{equation}  
+WeightedAveragePrecision = \frac{|y_i|}{|y|} * Precision_1 + \frac{|y2|}{|y|}*Precision_2
+\end{equation} 
+
+
 
 
 $if(mathjax)$
