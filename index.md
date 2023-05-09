@@ -138,7 +138,7 @@ used, and their weights are calculated respectively with the following equation:
 
 
 \begin{equation}  
-pos_weight = N + P
+pos_weight = \fracc{N}{P}
 \end{equation} 
 
 where N are negative examples an P positives examples.
