@@ -158,7 +158,23 @@ WeightedAveragePrecision = \frac{|y_i|}{|y|} * Precision_1 + \frac{|y2|}{|y|}*Pr
 \end{equation} 
 
 
+Weighted Average Recall (Sensitivity).
 
+   \begin{equation}  
+WeightedAverageRecall = \frac{|y_i|}{|y|} * Recall_1 + \frac{|y2|}{|y|}*Recall_2
+\end{equation} 
+
+F_beta.
+
+   \begin{equation}  
+WeightedAveragef1score = \frac{|y_i|f1score_1}{|y|} + \frac{|y2|f1score_2}{|y|}
+\end{equation} 
+
+Weighted Average Specificity.
+
+   \begin{equation}  
+WeightedAveragespecificity = \frac{|y_i|}{|y|} * Specificity_1 + \frac{|y2|}{|y|}*Specificity_2
+\end{equation} 
 
 $if(mathjax)$
 <!--- MathJax stuff -->
