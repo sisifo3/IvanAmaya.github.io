@@ -124,8 +124,24 @@ where the intercept $\beta_0$ and the slope $\beta_1$ are unknown constants.
 
 
 
-### Chest X ray 
+## Capter 2
+## Chest X ray 
 
+### Datasets 
+
+Publics datasets CheXpert, NIH and Covid19.
+
+Classes Weights.
+
+It can be seen that the database is not balanced, that is, the diference between the number of classes is very high, for this reason, the loss function BCEWithLogitsLoss is
+used, and their weights are calculated respectively with the following equation:
+
+
+\begin{equation}  
+pos_weight = N + P
+\end{equation} 
+
+where N are negative examples an P positives examples.
 
 
 $if(mathjax)$
