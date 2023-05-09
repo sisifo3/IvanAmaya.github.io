@@ -144,7 +144,7 @@ where N are negative examples an P positives examples.
 
 DenseNet 121.
 
-![plot_density](/fig/AI359.png)
+![plot_density](/fig/AI359.PNG)
 
 Error metrics.
 
