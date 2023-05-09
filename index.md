@@ -137,7 +137,7 @@ It can be seen that the database is not balanced, that is, the diference between
 used, and their weights are calculated respectively with the following equation:
 
 
-\begin{equation}  
+    \begin{equation}  
 pos_weight = \fracc{N}{P}
 \end{equation} 
 
