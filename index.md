@@ -136,8 +136,7 @@ Classes Weights.
 It can be seen that the database is not balanced, that is, the diference between the number of classes is very high, for this reason, the loss function BCEWithLogitsLoss is
 used, and their weights are calculated respectively with the following equation:
 
-
-    \begin{equation}  
+   \begin{equation}  
 pos_weight = \frac{N}{P}
 \end{equation} 
 
