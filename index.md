@@ -131,6 +131,8 @@ where the intercept $\beta_0$ and the slope $\beta_1$ are unknown constants.
 
 Publics datasets CheXpert, NIH and Covid19.
 
+![plot_density](/fig/AI360.PNG)
+
 Classes Weights.
 
 It can be seen that the database is not balanced, that is, the diference between the number of classes is very high, for this reason, the loss function BCEWithLogitsLoss is
