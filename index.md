@@ -191,7 +191,7 @@ Deep Learning Model.
 
 AlexNet-LSTM.
 
-
+![plot_density](/fig/AI361.PNG)
 
 
 $if(mathjax)$
