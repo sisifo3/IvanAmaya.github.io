@@ -183,6 +183,16 @@ WeightedAveragespecificity = \frac{|y_i|}{|y|} * Specificity_1 + \frac{|y2|}{|y|
 ## Capter 3
 ## Violence Detection.
 
+### Datasets
+
+Hockey fight Dataset, Movies Dataset, Violent-Flow Dataset.
+
+Deep Learning Model.
+
+AlexNet-LSTM.
+
+
+
 
 $if(mathjax)$
 <!--- MathJax stuff -->
