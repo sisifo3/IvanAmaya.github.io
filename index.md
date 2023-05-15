@@ -178,6 +178,12 @@ Weighted Average Specificity.
 WeightedAveragespecificity = \frac{|y_i|}{|y|} * Specificity_1 + \frac{|y2|}{|y|}*Specificity_2
 \end{equation} 
 
+
+
+## Capter 3
+## Violence Detection.
+
+
 $if(mathjax)$
 <!--- MathJax stuff -->
 <script type="text/javascript" src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
