@@ -193,6 +193,48 @@ AlexNet-LSTM.
 
 ![plot_density](/fig/AI361.PNG)
 
+The convolution layers were trained to extract features from the video frames and then be encapsulated using a convLSTM layer, the neural network works as follows:
+The frames of the videos under consideration are sequentially applied to the model. Once all the frames are applied, the hidden state of the convLSTM in the final step
+contains the representation of the input video frames. The video representation, in the hidden state of the convLSTM, is applied to a series of fully-connected layers for
+classification [3].
+
+In the proposed model, is used the AlexNet model [4], pre-trained on the ImageNet database as the CNN model for extracting frame level features [3].
+In the convLSTM, was used 256 filters in all the gates with a filter size of 3 x 3 and stride 1. Thus the hidden state of the convLSTM consist of 256 feature maps.
+A batch normalization layer is added before the first fully-connected layer. Rectified linear unit (ReLU) non-linear activation is applied after each of the convolutional and
+fully-connected layers. The network is trained to minimize the binary cross entropy loss [3].
+
+### Error metrics
+
+Precision
+
+   \begin{equation}  
+Precision = \frac{TP}{Tp+Fp} 
+\end{equation} 
+
+Recall (Sensitivity).
+
+   \begin{equation}  
+Recall = \frac{TP}{Tp+Fn} 
+\end{equation} 
+
+F_beta.
+
+   \begin{equation}  
+f\_1score = \frac{2∗Precision∗Recall}{Precision+Recall} 
+\end{equation} 
+
+Specificity.
+
+   \begin{equation}  
+Specificity = \frac{Tn}{Tn+Fp} 
+\end{equation}
+
+Accuracy
+
+   \begin{equation}  
+Accuracy = \frac{Tp + Tn}{Tp + Tn + Fp + Fn} 
+\end{equation}
+
 
 $if(mathjax)$
 <!--- MathJax stuff -->
