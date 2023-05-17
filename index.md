@@ -198,6 +198,10 @@ The frames of the videos under consideration are sequentially applied to the mod
 contains the representation of the input video frames. The video representation, in the hidden state of the convLSTM, is applied to a series of fully-connected layers for
 classification [3].
 
+![plot_density](/fig/AI363.PNG)
+
+![plot_density](/fig/AI364.PNG)
+
 In the proposed model, is used the AlexNet model [4], pre-trained on the ImageNet database as the CNN model for extracting frame level features [3].
 In the convLSTM, was used 256 filters in all the gates with a filter size of 3 x 3 and stride 1. Thus the hidden state of the convLSTM consist of 256 feature maps.
 A batch normalization layer is added before the first fully-connected layer. Rectified linear unit (ReLU) non-linear activation is applied after each of the convolutional and
